@@ -573,6 +573,14 @@ points = [ { x = 1, y = 2, z = 3 },
            { x = 2, y = 4, z = 8 } ]
 ```
 
+Validate a toml file
+----------
+
+A **TOML** file can be created and validated thanks to a **TOLS** file.
+
+For more specification see [tols.md](tols.md)
+
+
 Seriously?
 ----------
 
