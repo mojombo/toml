@@ -540,7 +540,8 @@ To unambiguously represent a specific instant in time, you may use an [RFC
 ```toml
 odt1 = 1979-05-27T07:32:00Z
 odt2 = 1979-05-27T00:32:00-07:00
-odt3 = 1979-05-27T00:32:00.999999-07:00
+odt3 = 1979-05-27T00:32:00.5-07:00
+odt4 = 1979-05-27T00:32:00.999999-07:00
 ```
 
 For the sake of readability, you may replace the T delimiter between date and
@@ -566,7 +567,8 @@ implementation-specific.
 
 ```toml
 ldt1 = 1979-05-27T07:32:00
-ldt2 = 1979-05-27T00:32:00.999999
+ldt2 = 1979-05-27T07:32:00.5
+ldt3 = 1979-05-27T00:32:00.999999
 ```
 
 Millisecond precision is required. Further precision of fractional seconds is
@@ -595,7 +597,8 @@ or timezone.
 
 ```toml
 lt1 = 07:32:00
-lt2 = 00:32:00.999999
+lt2 = 00:32:00.5
+lt3 = 00:32:00.999999
 ```
 
 Millisecond precision is required. Further precision of fractional seconds is
